@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Expense Tracker-logo.jpeg" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="app">
+
+            <h1>git init</h1>
+
+            <div class="summary">
+                <div>
+
+                    <h3>Total Expenses</h3>
+                    <p id="totalAmount">₹0</p>
+                </div>
+            </div>
+
+            <form id="expenseForm">
+
+                <input type="text" id="title" placeholder="Expense title" required>
+                <input type="number" id="amount" placeholder="Amount" required>
+
+
+                    <select  id="category">
+
+                        <option value="food">Food</option>
+                        <option value="rent">Rent</option>
+                        <option value="travel">Travel</option>
+                        <option value="shopping">Shopping</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                        <input type="date" id="date" required>
+                        <button type="submit">Add Expense</button>
+            </form>
+            <ul id="expenseList"></ul>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
